@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { products } from '../data/products';
+import { products } from './data/product';
 
 const Home = () => {
   const featuredProducts = products.slice(0, 4);

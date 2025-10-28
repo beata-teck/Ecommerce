@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
-import { useCart } from '../context/CartContext';
-import { products } from '../data/products';
+import { useCart } from './Context/CardContext';
+import { products } from './data/product';
 
 const ProductDetail = () => {
   const { id } = useParams();
